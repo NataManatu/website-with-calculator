@@ -6,12 +6,12 @@ function calcCost() {
     let qP = document.getElementById("quantityProduct").value;
     let total = sP * qP;
 
-    document.getElementById("priceProduct").innerText=total;
+    document.getElementById("priceProduct").innerText = total;
     document.getElementById("infoProduct").style.display = "block"
 
-    if(sP==0||qP==0 ){
+    if (sP == 0 || qP == 0) {
         document.getElementById("infoProduct").style.display = "none";
-        alert("укажите значение") 
+        alert("Укажите значение")
         return;
     }
 }
