@@ -79,19 +79,19 @@
                 <div class="cost_calc">
                     <form class="form">
                         <p class="form_text">Выберите изделие:</p>
-                        <select  class="form_select" name="" id="">
-                            <option value="" disabled>Выберите изделие из списка:</option>
-                            <option value="">Браслет(1000 Р)</option>
-                            <option value="">Кольцо(1500 Р)</option>
-                            <option value="">Серьги(2000 Р)</option>
+                        <select id="selectProduct" class="form_select" name="" id="">
+                            <option value="" disabled selected>Выбрать из списка</option>
+                            <option value="1000">Браслет (1000 Р)</option>
+                            <option value="1500">Кольцо (1500 Р)</option>
+                            <option value="2000">Серьги (2000 Р)</option>
                         </select>
                         <p class="form_text">Укажите количество:</p>
-                        <input class="form_input" type="number" value="0">
-                        <button type="button" class="Link">Рассчитать</button>
+                        <input id="quantityProduct" class="form_input" type="number" value="0" min="0">
+                        <button id="btnProduct" type="button" class="Link">Рассчитать</button>
 
-                        <div>
-                            <p>Итог: 1000 Р</p>
-                            <p>Оставьте заявку по почте:<a href="mailto:vip.aleksa78@mail.ru">
+                        <div class="total" id="infoProduct">
+                            <p class="total_prise">Итог:<span id="priceProduct"></span></p>
+                            <p class="total_info">Оставьте заявку по почте:<a href="mailto:vip.aleksa78@mail.ru" class="total_email">
                                 vip.aleksa78@mail.ru</a>
                             </p>
                         </div>
