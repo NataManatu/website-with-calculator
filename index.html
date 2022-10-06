@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="main_item">
+                <h1 class="main_title">Украшения собственного производства</h1>
+                <p class="main_text">Все изделия создаются с любовью для&#160каждого клиента</p>
+                <a href="#" class="Link">Сделать расчёт и заказ</a>
+            </div>
+            <div class="main_images">
+
+                <img src="images/image-2.jpg" alt="" width="352" height="472" id="img-2">
+                <img src="images/image-1.jpg" alt="" width="233" height="318" id="img-1">
+
+
+                <!-- <svg width="352" height="472">
+                    <pattern id="pattern" width="100%" height="100%">
+                        <image xLink:href="images/image-2.jpg" width="352" height="472">
+                            preserveAspectRatio="xMidYMin slice"</image>
+                    </pattern>
+                    <path
+                        d="M0 0.204529H182.212C275.548 0.204529 351.212 75.8684 351.212 169.205V537H176C78.7979 537 0 458.202 0 361V0.204529Z"
+                        fill="url(#pattern)" />
+                </svg> -->
+
+
+                <!-- <svg width="233" height="318">
+                    <pattern id="patternMin" width="100%" height="100%">
+                        <image xLink:href="images/image-1.jpg" width="233" height="318">
+                            preserveAspectRatio="xMidYMin slice"</image>
+                    </pattern>
+                    <path d="M0 0H112.227C179.053 0 233.227 54.1735 233.227 121V319H0V0Z" fill="url(#patternMin)" />
+                </svg> -->
+            </div>
+        </main>
+        <section class="products">
+            <h2 class="title-h2">Наши изделия</h2>
+            <div class="grid">
+                <div class="grid_cover">
+                    <img src="images/product_1.jpg" alt="">
+                </div>
+                <div class="grid_cover">
+                    <img src="images/product_1.jpg" alt="">
+                </div>
+                <div class="grid_cover">
+                    <img src="images/product_1.jpg" alt="">
+                </div>
+                <div class="grid_cover">
+                    <img src="images/product_1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="cost">
+
+                <div class="cost_title">
+                    <svg class="circle" viewBox="0 0 70 70" width="10%">
+                        <defs>
+                            <path d="M35,35m-23,0a23,23 0 1,1 46,0a23,23 0 1,1 -46,0" fill="lightpink" id="tophalf" />
+                        </defs>
+                        <text class="circle_text" style="font: initial;">
+                            <textPath xlink:href="#tophalf" startOffset="0%">Рассчитать </textPath>
+                            <textPath xlink:href="#tophalf" startOffset="50%">стоимость</textPath>
+                        </text>
+                    </svg>
+                </div>
+
+                <div class="cost_calc">
+                    <form class="form">
+                        <p class="form_text">Выберите изделие:</p>
+                        <select name="" id="">
+                            <option value="" disabled>Выберите изделие из списка</option>
+                        </select>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
