@@ -1,17 +1,22 @@
-document.getElementById("btnProduct").onclick = function () {
-    calcCost()
-};
-function calcCost() {
-    let sP = document.getElementById("selectProduct").value;
-    let qP = document.getElementById("quantityProduct").value;
-    let total = sP * qP;
+let btnProduct = document.getElementById("btnProduct");
 
-    document.getElementById("priceProduct").innerText = total;
-    document.getElementById("infoProduct").style.display = "block"
+
+btnProduct.addEventListener("click", function () {
+    let sP = document.getElementById("selectProduct").value
+    let qP = document.getElementById("quantityProduct").value
+    let priceProduct = document.getElementById("priceProduct")
+    let infoProduct = document.getElementById("infoProduct")
+    let total = sP * qP;
+    priceProduct.innerText = total
+    infoProduct.style.display = "block"
 
     if (sP == 0 || qP == 0) {
-        document.getElementById("infoProduct").style.display = "none";
+        infoProduct.style.display = "none";
         alert("Укажите значение")
         return;
     }
-}
+
+
+})
+
+
