@@ -31,7 +31,9 @@ body {
 .main_title,
 .Link,
 .title-h2,
-.circle_text {
+.circle_text,
+.form_select,
+.form_input {
     font-family: 'IBM Plex Sans', sans-serif;
 
 }
@@ -79,6 +81,8 @@ body {
     display: block;
     max-width: 300px;
     transition: 0.2s;
+    border: none;
+    width: 100%;
 
 }
 
@@ -149,7 +153,7 @@ body {
     letter-spacing: 1px;
     animation: motion normal infinite 20s linear;
     transform-origin: 50% 50%;
-    
+
 }
 
 @keyframes motion {
@@ -160,4 +164,36 @@ body {
 
 .circle:hover .circle_text {
     animation-play-state: paused;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+    margin-top: 157px;
+
+}
+
+.form_text {
+    margin-bottom: 9px;
+}
+
+.form_select {
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.form_input {
+    margin-bottom: 40px;
+    width: 90px;
+}
+
+.form_select,
+.form_input {
+    border: 1px solid var(--bglink);
+    font-size: 20px;
+    background: var(--bgColor);
+    padding: 17px 26px;
+    box-sizing: border-box;
 }
