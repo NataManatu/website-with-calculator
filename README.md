@@ -1,2 +1,2 @@
 # website-with-calculator
-## простая страница с рачетом заказа с использованием калькулятора на JS
+## a simple website page with cost calculation without adaptive layout на JS
