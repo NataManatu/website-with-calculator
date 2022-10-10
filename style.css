@@ -159,10 +159,11 @@ body {
 }
 
 .circle_text {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+   text-transform: uppercase;
+    font-size: 10px;
     animation: motion normal infinite 20s linear;
     transform-origin: 50% 50%;
+    
 
 }
 
@@ -179,6 +180,7 @@ body {
 .cost {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 82px;
     margin-top: 157px;
     margin-bottom: 200px;

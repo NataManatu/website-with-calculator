@@ -15,7 +15,7 @@
             <div class="main_item">
                 <h1 class="main_title">Украшения собственного производства</h1>
                 <p class="main_text">Все изделия создаются с любовью для&#160каждого клиента</p>
-                <a href="#" class="Link">Сделать расчёт и заказ</a>
+                <a href="#calc" class="Link">Сделать расчёт и заказ</a>
             </div>
             <div class="main_images">
 
@@ -46,20 +46,19 @@
             </div>
 
             <div class="cost">
-
                 <div class="cost_title">
-                    <svg class="circle" viewBox="0 0 70 70" width="10%">
+                    <svg class="circle" viewBox="0 0 70 70" width="50%">
                         <defs>
                             <path d="M35,35m-23,0a23,23 0 1,1 46,0a23,23 0 1,1 -46,0" fill="lightpink" id="tophalf" />
                         </defs>
-                        <text class="circle_text" style="font: initial;">
-                            <textPath xlink:href="#tophalf" startOffset="0%">Рассчитать </textPath>
+                        <text class="circle_text">
+                            <textPath xlink:href="#tophalf" startOffset="0%">pассчитать </textPath>
                             <textPath xlink:href="#tophalf" startOffset="50%">стоимость</textPath>
                         </text>
                     </svg>
                 </div>
 
-                <div class="cost_calc">
+                <div class="cost_calc" id="calc">
                     <form class="form">
                         <p class="form_text">Выберите изделие:</p>
                         <select id="selectProduct" class="form_select" name="" id="">
