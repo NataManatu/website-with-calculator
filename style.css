@@ -176,7 +176,12 @@ body {
 .circle:hover .circle_text {
     animation-play-state: paused;
 }
-
+#arrow{
+    width: 46px;
+    margin-left: 53px;
+    position: absolute;
+    margin-top: 48px;
+}
 .cost {
     display: flex;
     justify-content: center;
